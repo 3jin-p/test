@@ -12,6 +12,7 @@ version = "0.0.1-SNAPSHOT"
 
 repositories {
     mavenCentral()
+    maven { setUrl("https://jitpack.io") }
 }
 
 apply(plugin = "io.spring.dependency-management")
@@ -40,3 +41,4 @@ dependencies {
 tasks.withType<Test> {
     useJUnitPlatform()
 }
+
