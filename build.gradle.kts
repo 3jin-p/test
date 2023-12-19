@@ -16,6 +16,7 @@ repositories {
 }
 
 apply(plugin = "io.spring.dependency-management")
+apply(plugin = "maven-publish")
 
 dependencyManagement {
     imports {
