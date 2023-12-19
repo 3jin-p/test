@@ -1,4 +1,4 @@
 jdk: openjdk8
 install:
-  - echo "install"
-  - ./gradlew clean build -x test install
+  - echo ">>>>>>>>>>>>>> install"
+  - ./gradlew clean build -x test
