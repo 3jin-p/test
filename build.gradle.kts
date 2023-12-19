@@ -5,7 +5,6 @@ plugins {
     kotlin("plugin.spring") version kotlinVersion apply false
     id("org.springframework.boot") version "2.7.1" apply false
     id("io.spring.dependency-management") version "1.0.11.RELEASE"
-    id("maven-publish")
 }
 
 group = "org.springframework.batch.aws.athena"
