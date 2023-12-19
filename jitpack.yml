@@ -1,4 +1,4 @@
 jdk: openjdk11
 install:
   - echo ">>>>>>>>>>>>>> install"
-  - ./gradlew clean build -x test install
+  - ./gradlew clean build -x test publishToMavenLocal
