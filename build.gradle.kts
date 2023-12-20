@@ -7,8 +7,8 @@ plugins {
     id("io.spring.dependency-management") version "1.0.11.RELEASE"
 }
 
-group = "org.springframework.batch.aws.athena"
-version = "0.0.1-SNAPSHOT"
+group = "com.github.3jin-p"
+version = "0.0.1-alpha.5"
 
 repositories {
     mavenCentral()
