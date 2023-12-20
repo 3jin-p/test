@@ -8,10 +8,8 @@ plugins {
     id("maven-publish")
 }
 
-publishing {
-    group = "com.github.3jin-p"
-    version = "0.0.1-alpha.8"
-}
+group = "com.github.3jin-p"
+version = "v0.0.1-alpha.8"
 
 repositories {
     mavenCentral()
